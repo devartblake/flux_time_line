@@ -1,14 +1,22 @@
-# TimelineTile
+# FluxTimeLine
 
-A package to help build customisable timelines in Flutter.
+FluxTimeline is a modern take on timelines in Flutter. It focuses on a tiny, composable API for building progress tracks, histories, and step flows—without wrestling a full stepper. You get vertical and horizontal timelines, custom indicators, precise alignment (center/manual), Material 3 defaults, accessibility/RTL polish, and golden-tested visuals. Upcoming milestones add dashed/dotted line styles, Timeline.builder/SliverTimeline for large lists, and lightweight animation hooks.
 
----
+# Why FluxTimeline?
 
-## Example
+Small, focused API – Build just the pieces you need: tiles, lines, indicators.
 
-- You can access the [example](https://github.com/JHBitencourt/timeline_tile/tree/master/example) project for a Timeline Showcase.
-- The [Beautiful Timelines](https://github.com/JHBitencourt/beautiful_timelines) contains real world design examples.
-- Or try the [web demo](https://jhbitencourt.github.io/beautiful-timelines)
+Looks great by default – Material 3 theming, pixel-snapped strokes, sensible spacing.
+
+A11y-first – Semantics for current/past/next states, honors text scale & RTL.
+
+Scales to feeds – Planned builder and sliver variants for long, virtualized lists.
+
+Reliable visuals – Golden tests + CI keep paint regressions out of your app.
+
+# Perfect for
+
+Order/status tracking · project milestones · onboarding flows · activity feeds · history timelines · step-by-step tutorials
 
 Some use cases:
 
